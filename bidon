@@ -1,1 +1,71 @@
-azertyiop
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+  <title>Utilisation d'un test logique</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <script type="text/javascript">
+  // <!--
+  var tab = new Array (4, 675, 32, 87, 9837, 364, 7492, 45, 345, 324, 374, 8364, 5967, 12, 483, 8573, 659, 365, 9573, 309);
+
+
+	function quiEstLeNombreLePlusGrand(a, b){
+
+		var max = Math.max(a ,b);
+											}
+
+	function aleatoireNombre(a) {
+
+		var alea = (a+1)*Math.random();
+    	return Math.floor(alea);
+								}
+
+	function affectation(a, b)	{
+
+		return tab[a] = b;
+
+								}
+
+	function jeu()	{
+
+		for(i=0; i<5; i++)
+		{
+			var alea1 = aleatoireNombre(tab.length);
+			var alea2 = aleatoireNombre(tab.length);
+		}
+
+		if(alea1 == alea2)
+			alert("perdu")
+		else {
+			quiEstLeNombreLePlusGrand(){
+
+			}
+
+
+
+
+
+
+
+					}
+		
+
+
+
+					
+
+
+
+
+
+  // -->
+  </script>
+</head>
+<body>
+
+<h1>Utilisation d'un test logique</h1>
+
+<p>Cliquez sur le bouton pour lancer la fonction&nbsp;: <button onclick="javascript:jeu();">Lancer la fonction</button></p>
+
+</body>
+</html>
